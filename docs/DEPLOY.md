@@ -18,7 +18,25 @@ already fronts `api-v2.genohub.org` and `hcloud.genohub.org`.
 
 ### 1. Cloudflare DNS
 
-In the **genohub.org** zone → **DNS → Records → Add record**:
+Scripted, if you have a token with **Zone → DNS → Edit** on `genohub.org`:
+
+```bash
+export CF_API_TOKEN=$(cat ~/.cloudflare-dns-token)   # never paste it into argv
+./scripts/cloudflare-dns.sh            # dry run — says what it would change
+./scripts/cloudflare-dns.sh --apply    # create/fix the record, then verify
+```
+
+It is idempotent: an already-correct record is left alone, a wrong one is
+corrected, and it finishes by checking that the live page is *this* site rather
+than the wildcard's.
+
+> **An R2 token will not work.** The R2 credential in
+> `infrastructure repo/Docs/Secretes/CloudFlare-API.txt` verifies fine against
+> `/accounts/{id}/tokens/verify`, but it carries object-storage permissions
+> only, and it is IP-restricted on top of that. The giveaway that a token is an
+> R2 one: its token id is the same string as the S3 Access Key ID.
+
+Or by hand, in the **genohub.org** zone → **DNS → Records → Add record**:
 
 | Field | Value |
 |---|---|

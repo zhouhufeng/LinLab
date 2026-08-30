@@ -57,6 +57,7 @@ deploy/k8s/linlab.yaml` — is in **[docs/DEPLOY.md](docs/DEPLOY.md)**.
 | `scripts/fetch_images.py` | Download images, rewrite the JSON to local paths |
 | `scripts/gen_sitemap.mjs` | `dist/sitemap.xml`, run as part of the build |
 | `scripts/deploy.sh` | Build → node → symlink flip → verify |
+| `scripts/cloudflare-dns.sh` | Create/fix the `lin` A record (needs a Zone:DNS:Edit token) |
 | `deploy/k8s/linlab.yaml` | Namespace, nginx Deployment, Service, Ingress |
 | `docs/DEPLOY.md` | Deployment runbook, DNS, troubleshooting |
 | `docs/CONTENT.md` | Content pipeline and how to edit it |
