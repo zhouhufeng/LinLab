@@ -52,6 +52,13 @@ kubectl -n web rollout status deploy/linlab
 The pod will not become ready until `/srv/lin-lab/current` exists, so run the
 first deploy right after. That is expected, not a failure.
 
+`current` must be a **relative** symlink (`releases/<ts>`, not
+`/srv/lin-lab/releases/<ts>`). nginx resolves it inside the container, where the
+release sits at `/site/releases/<ts>`; an absolute link points at a path that
+does not exist there and every request 404s while the pod still reports ready.
+`scripts/deploy.sh` gets this right — it is only a trap if you flip the symlink
+by hand.
+
 ## Deploying
 
 ```bash
@@ -71,16 +78,27 @@ Environment overrides: `ORIGIN_IP`, `ORIGIN_USER`, `ORIGIN_KEY`, `REMOTE_ROOT`,
 
 ## Verifying
 
+**Check the content, not the status code.** Because of the zone wildcard,
+`https://lin.genohub.org/` returned a perfectly healthy **200 from a completely
+different origin** before the `lin` record existed. A status code cannot tell
+the two apart; the page title can.
+
 ```bash
 # origin, bypassing Cloudflare entirely
 ssh -i ~/.ssh/origin_key ubuntu@ORIGIN_IP \
-  "curl -sI -H 'Host: lin.genohub.org' http://127.0.0.1/ | head -1"
+  "curl -s -H 'Host: lin.genohub.org' http://127.0.0.1/ | grep -o '<title>[^<]*'"
+# -> <title>Lin Lab | Harvard T.H. Chan School of Public Health
 
-# through Cloudflare
-curl -sI https://lin.genohub.org/ | head -1
-curl -sI https://lin.genohub.org/software | head -1   # 200, not 404 — SPA fallback
+# through Cloudflare — same test, and this is the one that gates the DNS change
+curl -s https://lin.genohub.org/ | grep -o '<title>[^<]*'
+
+# SPA fallback: an unknown path must return the app with a 200, not a 404
+curl -sI https://lin.genohub.org/software | head -1
 curl -s  https://lin.genohub.org/sitemap.xml | head -3
 ```
+
+`scripts/deploy.sh` runs both of these itself and says plainly when the edge is
+answering from the wildcard rather than from this site.
 
 A 404 on `/software` while `/` returns 200 means the `try_files … /index.html`
 fallback is not in effect — check that the ConfigMap applied and the pod picked

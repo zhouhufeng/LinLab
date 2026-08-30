@@ -39,12 +39,12 @@ case "${1:-}" in
     say "Rolling back on $ORIGIN_IP"
     "${SSH[@]}" bash -s <<EOF
 set -euo pipefail
-cd "$REMOTE_ROOT/releases"
-current=\$(basename "\$(readlink -f "$REMOTE_ROOT/current")")
-previous=\$(ls -1 | grep -v "^\$current\$" | sort | tail -1)
+cd "$REMOTE_ROOT"
+current=\$(basename "\$(readlink -f current)")
+previous=\$(ls -1 releases | grep -v "^\$current\$" | sort | tail -1)
 [ -n "\$previous" ] || { echo "no previous release to roll back to" >&2; exit 1; }
-ln -sfn "$REMOTE_ROOT/releases/\$previous" "$REMOTE_ROOT/current.tmp"
-mv -Tf "$REMOTE_ROOT/current.tmp" "$REMOTE_ROOT/current"
+ln -sfn "releases/\$previous" current.tmp
+mv -Tf current.tmp current
 echo "current -> \$previous"
 EOF
     exit 0
@@ -71,9 +71,13 @@ rsync -az --delete \
 say "Flipping current -> releases/$RELEASE"
 "${SSH[@]}" bash -s <<EOF
 set -euo pipefail
-ln -sfn "$REMOTE_ROOT/releases/$RELEASE" "$REMOTE_ROOT/current.tmp"
-mv -Tf "$REMOTE_ROOT/current.tmp" "$REMOTE_ROOT/current"
-chmod -R a+rX "$REMOTE_ROOT/releases/$RELEASE"
+cd "$REMOTE_ROOT"
+# The symlink must be RELATIVE. nginx resolves it inside the container, where
+# the release lives at /site/releases/... , not at $REMOTE_ROOT/releases/... —
+# an absolute link here resolves to nothing and every request 404s.
+ln -sfn "releases/$RELEASE" current.tmp
+mv -Tf current.tmp current
+chmod -R a+rX "releases/$RELEASE"
 # Keep the last $KEEP_RELEASES releases so a rollback always has somewhere to go.
 cd "$REMOTE_ROOT/releases" && ls -1 | sort | head -n -$KEEP_RELEASES | xargs -r rm -rf
 EOF
@@ -84,10 +88,21 @@ echo "    origin GET / -> $origin_status"
 [[ "$origin_status" == "200" ]] || die "origin did not return 200 — check: kubectl -n web get pods,ingress"
 
 say "Verifying through Cloudflare"
-if edge_status=$(curl -fsS -o /dev/null -w '%{http_code}' "https://$HOSTNAME_/" 2>/dev/null); then
-  echo "    https://$HOSTNAME_/ -> $edge_status"
+# A 200 here proves nothing on its own. The genohub.org zone has a wildcard
+# record, so lin.genohub.org resolves — and answers — even with no `lin` record,
+# just from a different origin. Same trap that made the hcloud record look done
+# when it was not. So the gate is the page CONTENT, never the status code.
+MARKER='Lin Lab | Harvard T.H. Chan School of Public Health'
+if edge_body=$(curl -fsS --max-time 20 "https://$HOSTNAME_/" 2>/dev/null); then
+  if grep -qF "$MARKER" <<<"$edge_body"; then
+    echo "    https://$HOSTNAME_/ -> serving this site"
+  else
+    echo "    https://$HOSTNAME_/ answers, but it is NOT this site — that is the"
+    echo "    zone wildcard, not a \`lin\` record. Add the Cloudflare A record"
+    echo "    (lin -> $ORIGIN_IP, proxied). See docs/DEPLOY.md."
+  fi
 else
-  echo "    https://$HOSTNAME_/ is not answering yet — add the Cloudflare A record"
+  echo "    https://$HOSTNAME_/ is not answering — add the Cloudflare A record"
   echo "    (lin -> $ORIGIN_IP, proxied). See docs/DEPLOY.md."
 fi
 
