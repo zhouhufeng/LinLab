@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white font-sans text-[17px] leading-relaxed text-charcoal antialiased;
+  }
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-crimson;
+  }
+}
+
+@layer components {
+  /* Shared styling for the rich-text bodies extracted from the source CMS.
+     Kept as one place so every page reads the same, rather than sprinkling
+     prose classes through the components. */
+  .rich {
+    @apply text-[1.0625rem] leading-[1.75];
+  }
+  .rich > * + * {
+    @apply mt-4;
+  }
+  .rich h2 {
+    @apply mt-10 font-display text-3xl font-semibold text-brick;
+  }
+  .rich h3 {
+    @apply mt-8 font-display text-xl font-semibold text-brick;
+  }
+  .rich h4 {
+    @apply mt-6 text-base font-semibold uppercase tracking-wide text-slate;
+  }
+  .rich a {
+    @apply font-medium text-crimson underline decoration-crimson/30 underline-offset-2
+           transition-colors hover:decoration-crimson;
+  }
+  .rich ul {
+    @apply list-disc space-y-2 pl-6 marker:text-khaki;
+  }
+  .rich ol {
+    @apply list-decimal space-y-2 pl-6 marker:text-slate;
+  }
+  .rich li > ul,
+  .rich li > ol {
+    @apply mt-2;
+  }
+  .rich em {
+    @apply text-slate;
+  }
+  .rich table {
+    @apply w-full border-collapse text-left text-sm;
+  }
+  .rich th,
+  .rich td {
+    @apply border-b border-black/10 px-3 py-2 align-top;
+  }
+  .rich hr {
+    @apply my-8 border-black/10;
+  }
+}

@@ -1,0 +1,1338 @@
+{
+  "members": {
+    "title": "Lab Members",
+    "groups": [
+      {
+        "group": "Principal Investigator",
+        "people": [
+          {
+            "id": "xihong-lin-phd",
+            "name": "Xihong Lin, PhD",
+            "meta": [
+              "Director of the Lin Lab",
+              "Statistics Department Chair, Professor of Biostatistics and Statistics"
+            ],
+            "image": "/images/people/xihong-lin-phd.jpg",
+            "alt": "Xihong Lin headshot",
+            "bio": [
+              "Dr. Lin’s research spans statistical methods, machine learning, and epidemiology, including predictive modeling, causal inference, and COVID-19 studies. A member of the National Academies of Sciences and Medicine, she has received numerous awards, including the COPSS Presidents’ Award and the Marvin Zelen Leadership Award, and has served in prominent roles within national and international statistical organizations."
+            ],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=VH2myY0AAAAJ&hl=en"
+              },
+              {
+                "label": "Academic Profile",
+                "href": "https://hsph.harvard.edu/profile/xihong-lin/"
+              },
+              {
+                "label": "Contact",
+                "href": "mailto:xihong_lin@harvard.edu"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Research Staff",
+        "people": [
+          {
+            "id": "hufeng-zhou-phd",
+            "name": "Hufeng Zhou, PhD",
+            "meta": [
+              "Research Scientist"
+            ],
+            "image": "/images/people/hufeng-zhou-phd.jpg",
+            "alt": "Hufeng Zhou headshot",
+            "bio": [
+              "Dr. Zhou’s primary focus is on the functional annotation of genetic variants, building and maintaining annotation databases, and ensuring the quality of large-scale whole-genome sequencing studies. Additionally, he is intrigued by the potential of generative AI to advance genetics research."
+            ],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=Ddw_B4EAAAAJ&hl=en"
+              },
+              {
+                "label": "Website",
+                "href": "http://hzhou.org/"
+              }
+            ]
+          },
+          {
+            "id": "xinan-wang-phd",
+            "name": "Xinan Wang, PhD",
+            "meta": [
+              "Research Associate"
+            ],
+            "image": "/images/people/xinan-wang-phd.jpeg",
+            "alt": "Xinan Wang Headshot",
+            "bio": [
+              "Dr. Wang’s research leverages multi-omics data to understand the molecular heterogeneity of lung cancer and its interactions with environmental risk factors, with goals to elucidate disease etiology and optimize personalized treatment strategies and patient outcomes."
+            ],
+            "links": []
+          }
+        ]
+      },
+      {
+        "group": "Postdoctoral Research Fellows",
+        "people": [
+          {
+            "id": "haoyu-yang-phd",
+            "name": "Haoyu Yang, PhD",
+            "meta": [
+              "Postdoctoral Research Fellow"
+            ],
+            "image": "/images/people/haoyu-yang-phd.jpg",
+            "alt": "H Yang headshot",
+            "bio": [
+              "Dr. Yang’s primary focus is to build up robust and statistically efficient methods for causal association discovery, such as large-scale mediation testing and treatment effect estimation problems in complex situations. She is intrigued by the plasma protein data analysis and trying to establish a model for personalized disease prediction."
+            ],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com.hk/citations?hl=zh-CN&view_op=list_works&gmla=AFix5Mbfwz2LPvSZ8CMyY0M_b4WfUYm_a7kBp2n-w7YR1kmk13y3im6SRZNTvLpL2iIKsMmpGR1ajNJxS0xLRnmOZRY4V_U&user=8uUDqVkAAAAJ"
+              }
+            ]
+          },
+          {
+            "id": "shuang-song-phd",
+            "name": "Shuang Song, PhD",
+            "meta": [
+              "Postdoctoral Research Fellow"
+            ],
+            "image": "/images/people/shuang-song-phd.jpg",
+            "alt": "Shuang Song headshot",
+            "bio": [
+              "Dr. Song’s research interests include statistical genetics and genomics, Bayesian methodology, and machine learning. Her current work centers on developing statistical tools for large-scale whole-genome sequencing studies, with a particular focus on time-to-event data analysis, polygenic risk prediction, and heritability estimation."
+            ],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=5-3t3mYAAAAJ&hl=en"
+              }
+            ]
+          },
+          {
+            "id": "junhao-zhu-phd",
+            "name": "Junhao Zhu, PhD",
+            "meta": [
+              "Postdoctoral Research Fellow"
+            ],
+            "image": "/images/people/junhao-zhu-phd.jpeg",
+            "alt": "Junhao Zhu headshot",
+            "bio": [
+              "Dr. Zhu’s research focuses on the intersection of statistical optimal transport, manifold representation learning, and generative modeling within the context of single-cell and spatial omics. He is currently developing advanced statistical and computational frameworks to analyze IGVF multiomic data."
+            ],
+            "links": [
+              {
+                "label": "GitHub",
+                "href": "https://j0eyjoey.github.io/junhaozhu98/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Students",
+        "people": [
+          {
+            "id": "yuzhou-lin",
+            "name": "Yuzhou Lin",
+            "meta": [
+              "PhD Student",
+              "G5, Department of Statistics"
+            ],
+            "image": "/images/people/yuzhou-lin.jpg",
+            "alt": "Y Lin's headshot",
+            "bio": [
+              "Yuzhou’s research focuses on advancing modern causal inference methods to analyze complex observational studies, with a particular emphasis on developing causal mediation analysis methods for integrative analyses of health outcome data."
+            ],
+            "links": []
+          },
+          {
+            "id": "xiaonan-liu",
+            "name": "Xiaonan Liu",
+            "meta": [
+              "PhD Student",
+              "G4, Department of Biostatistics"
+            ],
+            "image": "/images/people/xiaonan-liu.jpg",
+            "alt": "Xiaonan Liu headshot",
+            "bio": [
+              "Xiaonan is interested in studying disease mechanisms and identifying drug targets. In particular, she is working on predicting individual-level gene expression to uncover how genetic variants impact phenotype through gene expression."
+            ],
+            "links": []
+          },
+          {
+            "id": "ziqi-fu",
+            "name": "Ziqi Fu",
+            "meta": [
+              "PhD Student",
+              "G3, Department of Biostatistics"
+            ],
+            "image": "/images/people/ziqi-fu.jpg",
+            "alt": "Ziqi Fu headshot",
+            "bio": [
+              "Ziqi is broadly interested in applying spectral methods, high-dimensional statistical inference, and geometrical/topological manifold learning to multimodal genomics and genetics data. Currently, Ziqi is focused on developing computational methods for the IGVF single-cell multiomic data integration and regulatory network inference."
+            ],
+            "links": []
+          },
+          {
+            "id": "zhiyu-roman-yan",
+            "name": "Zhiyu (Roman) Yan",
+            "meta": [
+              "PhD Student",
+              "G3, Department of Biostatistics"
+            ],
+            "image": "/images/people/zhiyu-roman-yan.jpg",
+            "alt": "Roman Yan headshot",
+            "bio": [
+              "Roman is interested in developing statistical methods to enhance understanding of disease mechanisms and improve patient outcomes, with a focus on integrating genetic and clinical information from diverse sources while accounting for data heterogeneity."
+            ],
+            "links": []
+          },
+          {
+            "id": "ahmad-abdel-azim",
+            "name": "Ahmad Abdel-Azim",
+            "meta": [
+              "PhD Student",
+              "G3, Department of Biostatistics"
+            ],
+            "image": "/images/people/ahmad-abdel-azim.jpg",
+            "alt": "",
+            "bio": [],
+            "links": []
+          }
+        ]
+      }
+    ]
+  },
+  "alumni": {
+    "title": "Alumni",
+    "groups": [
+      {
+        "group": null,
+        "people": [
+          {
+            "id": "ruoyu-wang-phd",
+            "name": "Ruoyu Wang, PhD",
+            "meta": [
+              "Assistant Professor, Tsinghua University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "vineet-verma",
+            "name": "Vineet Verma",
+            "meta": [
+              "Software Engineer, Pfizer"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "julie-alexia-dias-phd",
+            "name": "Julie-Alexia Dias, PhD",
+            "meta": [
+              "Instructor, Massachusetts General Hospital"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "kan-chen-phd",
+            "name": "Kan Chen, PhD",
+            "meta": [
+              "Assistant Professor, Cornell University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "eric-van-buren-phd",
+            "name": "Eric Van Buren, PhD",
+            "meta": [
+              "Senior Scientist in Precision Disease Genetics at Merck"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "timothy-barry-phd",
+            "name": "Timothy Barry, PhD",
+            "meta": [
+              "Postdoctoral Research Fellow at Boston Children's Hospital"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "rebecca-danning-phd",
+            "name": "Rebecca Danning, PhD",
+            "meta": [
+              "Postdoctoral Research Fellow at the Broad Institute"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "tony-chen-phd",
+            "name": "Tony Chen, PhD",
+            "meta": [
+              "Postdoctoral Research Fellow at the Broad Institute"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "hui-li-phd",
+            "name": "Hui Li, PhD",
+            "meta": [
+              "Senior Scientist at Merck"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "jianqiao-wang-phd",
+            "name": "Jianqiao Wang, PhD",
+            "meta": [
+              "Assistant Professor, Tsinghua University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "shuting-shen-phd",
+            "name": "Shuting Shen, PhD",
+            "meta": [
+              "Assistant Professor, the National University of Singapore"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "derek-shyr-phd",
+            "name": "Derek Shyr, PhD",
+            "meta": [
+              "Medical School Student, University of Alabama"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "daniel-li-phd",
+            "name": "Daniel Li, PhD",
+            "meta": [
+              "Oncology Fellow, UCLA"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "xihao-li-phd",
+            "name": "Xihao Li, PhD",
+            "meta": [
+              "Assistant Professor, The University of North Carolina at Chapel Hill"
+            ],
+            "image": "/images/people/xihao-li-phd.jpeg",
+            "alt": "Xihao Li headshot",
+            "bio": [],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=DOg4nhoAAAAJ&hl=en&oi=ao"
+              },
+              {
+                "label": "Academic Profile",
+                "href": "https://sph.unc.edu/adv_profile/xihao-li-phd/"
+              }
+            ]
+          },
+          {
+            "id": "andy-shi-phd",
+            "name": "Andy Shi, PhD",
+            "meta": [
+              "Data Scientist, Google"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "zachary-mccaw-phd",
+            "name": "Zachary McCaw, PhD",
+            "meta": [
+              "Staff Machine Learning Scientist, Insitro",
+              "Adjunct Instructor, The University of North Carolina at Chapel Hill"
+            ],
+            "image": "/images/people/zachary-mccaw-phd.jpeg",
+            "alt": "Zachary McCaw headshot",
+            "bio": [],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=lYRkHs8AAAAJ&hl=en"
+              }
+            ]
+          },
+          {
+            "id": "yi-zhang-phd",
+            "name": "Yi Zhang, PhD",
+            "meta": [
+              "Assistant Professor, Duke University School of Medicine"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?hl=en&user=yTJVsxEAAAAJ"
+              },
+              {
+                "label": "CompBio",
+                "href": "https://yi-zhang-compbio-lab.github.io/"
+              }
+            ]
+          },
+          {
+            "id": "haoyu-zhang-phd",
+            "name": "Haoyu Zhang, PhD",
+            "meta": [
+              "Earl Stadtman tenure-track investigator",
+              "Biostatistics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute"
+            ],
+            "image": "/images/people/haoyu-zhang-phd.jpg",
+            "alt": "Haoyu Zhang headshot",
+            "bio": [],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=B2cTx6MAAAAJ&hl=en"
+              }
+            ]
+          },
+          {
+            "id": "sean-mccabe-phd",
+            "name": "Sean McCabe, PhD",
+            "meta": [
+              "Assistant Professor, Indiana University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "rounak-dey-phd",
+            "name": "Rounak Dey, PhD",
+            "meta": [
+              "Data Scientist, Insitro"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "sheila-gaynor-phd",
+            "name": "Sheila Gaynor, PhD",
+            "meta": [
+              "Statistician, Regeneron"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "corbin-quick-phd",
+            "name": "Corbin Quick, PhD",
+            "meta": [
+              "Data Scientist, Google"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "jingwen-zhang-phd",
+            "name": "Jingwen Zhang, PhD",
+            "meta": [
+              "Senior Biostatistician, Natera"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "sixing-chen-phd",
+            "name": "Sixing Chen, PhD",
+            "meta": [
+              "Data Scientist, Google"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "zilin-li-phd",
+            "name": "Zilin Li, PhD",
+            "meta": [
+              "Professor of Statistics, Northeast Normal University"
+            ],
+            "image": "/images/people/zilin-li-phd.jpg",
+            "alt": "Zilin Li headshot",
+            "bio": [],
+            "links": [
+              {
+                "label": "Bibliography",
+                "href": "https://scholar.google.com/citations?user=ECXwR9oAAAAJ&hl=en&oi=ao"
+              },
+              {
+                "label": "GitHub",
+                "href": "https://zilinli1988.github.io/"
+              }
+            ]
+          },
+          {
+            "id": "ryan-sun-phd",
+            "name": "Ryan Sun, PhD",
+            "meta": [
+              "Assistant Professor, MD Anderson Cancer Center"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "yaowu-liu-phd",
+            "name": "Yaowu Liu, PhD",
+            "meta": [
+              "Professor, Southwest University of Finance and Economics"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "zhonghua-liu-phd",
+            "name": "Zhonghua Liu, PhD",
+            "meta": [
+              "Assistant Professor, Columbia University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "jincheng-shen-phd",
+            "name": "Jincheng Shen, PhD",
+            "meta": [
+              "Assistant Professor, University of Utah"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "han-chen-phd",
+            "name": "Han Chen, PhD",
+            "meta": [
+              "Associate Professor, New York University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "chaolong-wang-phd",
+            "name": "Chaolong Wang, PhD",
+            "meta": [
+              "Professor, Huazhong University of Science and Technology"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "rajarshi-mukherjee-phd",
+            "name": "Rajarshi Mukherjee, PhD",
+            "meta": [
+              "Associate Professor, Harvard T.H. Chan School of Public Health"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": [
+              {
+                "label": "Academic Profile",
+                "href": "https://hsph.harvard.edu/profile/rajarshi-mukherjee/"
+              }
+            ]
+          },
+          {
+            "id": "jun-chen-phd",
+            "name": "Jun Chen, PhD",
+            "meta": [
+              "Professor, Mayo Clinic"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "xuefeng-wang-phd",
+            "name": "Xuefeng Wang, PhD",
+            "meta": [
+              "Associate Member of Biostatistics and Vice Chair, Moffitt Cancer Center"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "seunggeun-lee-phd",
+            "name": "Seunggeun Lee, PhD",
+            "meta": [
+              "Professor, National Seoul University"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          },
+          {
+            "id": "lin-li-phd",
+            "name": "Lin Li, PhD",
+            "meta": [
+              "Chief Executive Officer, Biostatistics Solution"
+            ],
+            "image": null,
+            "alt": null,
+            "bio": [],
+            "links": []
+          }
+        ]
+      }
+    ]
+  },
+  "software": {
+    "title": "Software",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p>To support our research, we developed the following novel software programs:</p>",
+        "links": []
+      },
+      {
+        "title": "FAVOR",
+        "html": "<p>FAVOR provides a comprehensive multi-faceted variant functional annotation online portal that summarizes and visualizes findings of all possible nine billion single nucleotide variants (SNVs) across the genome. It allows for rapid variant-, gene- and region-level queries of variant functional annotations. FAVOR integrates variant functional information from multiple sources to describe the functional characteristics of variants and facilitates prioritizing plausible causal variants influencing human phenotypes. Furthermore, we provide a scalable annotation tool, FAVORannotator, to functionally annotate large-scale WGS studies and efficiently store the genotype and their variant functional annotation data in a single file using the annotated Genomic Data Structure (aGDS) format, making downstream analysis more convenient. FAVOR and FAVORannotator are available at <em><a href=\"https://favor.genohub.org/\" rel=\"noopener noreferrer\" target=\"_blank\">https://favor.genohub.org</a></em>.</p><p><strong>References:</strong></p><ul><li>Zhou, H., Arapoglou, T., Li, X., Li, Z., Zheng, X., Moore, J., Asok, A., Kumar, S., Blue, E.E., Buyske, S. and Cox, N., 2023. FAVOR: functional annotation of variants online resource and annotator for variation across the human genome. <em>Nucleic Acids Research</em>, <em>51</em>(D1), pp.D1300-D1311.</li></ul>",
+        "links": [
+          {
+            "label": "https://favor.genohub.org",
+            "href": "https://favor.genohub.org/"
+          }
+        ]
+      },
+      {
+        "title": "MetaSTAAR",
+        "html": "<p><a href=\"https://github.com/xihaoli/MetaSTAAR\" rel=\"noopener noreferrer\" target=\"_blank\">MetaSTAAR</a> is an R package for performing Meta-analysis of variant-Set Test for Association using Annotation infoRmation (MetaSTAAR) procedure in whole-genome sequencing (WGS) studies. See user manual <a href=\"https://content.sph.harvard.edu/xlin/dat/MetaSTAAR-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Li X, Quick C, Zhou H, Gaynor SM, Liu Y, Chen H, Selvaraj MS, Sun R, Dey R, Arnett DK, Bielak LF, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Freedman BI, G?ring HHH, Guo X, Haessler J, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Manichaikul A, Manning AK, Martin LW, McGarvey ST, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O¡¯Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Sitlani CM, Smith JA, Taylor KD, Vasan RS, Willer CJ, Wilson JG, Yanek LR, Zhao W, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, TOPMed Lipids Working Group, Rotter JI, Natarajan P, Peloso GM, Li Z#, &amp; Lin X#. (2023). Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.<em>Nature Genetics, 55(1), 154-164</em></li></ul>",
+        "links": [
+          {
+            "label": "MetaSTAAR",
+            "href": "https://github.com/xihaoli/MetaSTAAR"
+          },
+          {
+            "label": "here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/MetaSTAAR-manual.pdf"
+          }
+        ]
+      },
+      {
+        "title": "STAARpipeline",
+        "html": "<p><a href=\"https://github.com/xihaoli/STAARpipeline\" rel=\"noopener noreferrer\" target=\"_blank\">STAARpipeline</a> is an R package for phenotype-genotype association analyses of WGS/WES data, including single variant analysis and variant set analysis. The single variant analysis in STAARpipeline provides valid individual *P* values of variants given a MAF or MAC cut-off. The variant set analysis in STAARpipeline includes gene-centric analysis and non-gene-centric analysis of rare variants. The gene-centric coding analysis provides five genetic categories: putative loss of function (pLoF), missense, disruptive missense, pLoF and disruptive missense, and synonymous. The gene-centric noncoding analysis provides eight genetic categories: promoter or enhancer overlaid with CAGE or DHS sites, UTR, upstream, downstream, and noncoding RNA genes. The non-gene-centric analysis includes sliding window analysis with fixed sizes and dynamic window analysis with data-adaptive sizes. STAARpipeline also provides analytical follow-up of dissecting association signals independent of known variants via conditional analysis using <a href=\"https://github.com/xihaoli/STAARpipelineSummary\" rel=\"noopener noreferrer\" target=\"_blank\">STAARpipelineSummary</a>. See user manual <a href=\"https://content.sph.harvard.edu/xlin/dat/STAARpipeline-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Li Z*#, Li X*, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell TW, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, G?ring HHH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Lin BM, Manichaikul A, Manning AK, Martin LW, Mathias RA, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O¡¯Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Smith JA, Taylor KD, Taub MA, Vasan RS, Weeks DE, Wilson JG, Yanek LR, Zhao W, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, TOPMed Lipids Working Group, Rotter JI, Willer CJ, Natarajan P, Peloso GM, &amp; Lin X.# (2022). A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.<em>Nature Methods, 19(12), 1599-1611</em></li></ul>",
+        "links": [
+          {
+            "label": "STAARpipeline",
+            "href": "https://github.com/xihaoli/STAARpipeline"
+          },
+          {
+            "label": "STAARpipelineSummary",
+            "href": "https://github.com/xihaoli/STAARpipelineSummary"
+          },
+          {
+            "label": "here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/STAARpipeline-manual.pdf"
+          }
+        ]
+      },
+      {
+        "title": "STAARpipelineSummary",
+        "html": "<p><a href=\"https://github.com/xihaoli/STAARpipelineSummary\" rel=\"noopener noreferrer\" target=\"_blank\">STAARpipelineSummary</a> is an R package for summarizing and visualizing association analysis results generated by <a href=\"https://github.com/xihaoli/STAARpipeline\" rel=\"noopener noreferrer\" target=\"_blank\">STAARpipeline</a>. See user manual <a href=\"https://content.sph.harvard.edu/xlin/dat/STAARpipelineSummary-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Li Z*#, Li X*, Zhou H, Gaynor SM, Selvaraj MS, Arapoglou T, Quick C, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Auer PL, Bielak LF, Bis JC, Blackwell TW, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Conomos MP, Correa A, Cupples LA, Curran JE, de Vries PS, Duggirala R, Franceschini N, Freedman BI, G?ring HHH, Guo X, Kalyani RR, Kooperberg C, Kral BG, Lange LA, Lin BM, Manichaikul A, Manning AK, Martin LW, Mathias RA, Meigs JB, Mitchell BD, Montasser ME, Morrison AC, Naseri T, O¡¯Connell JR, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redline S, Reiner AP, Reupena MS, Rice KM, Rich SS, Smith JA, Taylor KD, Taub MA, Vasan RS, Weeks DE, Wilson JG, Yanek LR, Zhao W, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, TOPMed Lipids Working Group, Rotter JI, Willer CJ, Natarajan P, Peloso GM, &amp; Lin X.# (2022). A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.<em>Nature Methods, 19(12), 1599-1611</em></li></ul>",
+        "links": [
+          {
+            "label": "STAARpipelineSummary",
+            "href": "https://github.com/xihaoli/STAARpipelineSummary"
+          },
+          {
+            "label": "STAARpipeline",
+            "href": "https://github.com/xihaoli/STAARpipeline"
+          },
+          {
+            "label": "here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/STAARpipelineSummary-manual.pdf"
+          }
+        ]
+      },
+      {
+        "title": "STAAR",
+        "html": "<p><strong>STAAR (variant-Set Test for Association using Annotation infoRmation)</strong></p><p><a href=\"https://github.com/xihaoli/STAAR\" rel=\"noopener noreferrer\" target=\"_blank\">STAAR</a> is an R package for performing variant-Set Test for Association using Annotation infoRmation (STAAR) procedure in whole genome sequencing studies. STAAR is a general framework that incorporates both qualitative functional categories and quantitative complementary functional annotation scores using an omnibus multi-dimensional weighting scheme. See user manual <a href=\"https://content.sph.harvard.edu/xlin/dat/STAAR-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Li X*, Li Z*, Zhou H, Gaynor SM, Liu Y, Chen H, Sun R, Dey R, Arnett DK, Aslibekyan S, Ballantyne CM, Bielak LF, Blangero J, Boerwinkle E, Bowden DW, Broome JG, Conomos MP, Correa A, Cupples LA, Curran JE, Freedman BI, Guo X, Hindy G, Irvin MR, Kardia SLR, Kathiresan S, Khan AT, Kooperberg CL, Laurie CC, Liu XS, Mahaney MC, Manichaikul AW, Martin LW, Mathias RA, McGarvey ST, Mitchell BD, Montasser ME, Moore JE, Morrison AC, O’Connell JR, Palmer ND, Pampana A, Peralta JM, Peyser PA, Psaty BM, Redline S, Rice KM, Rich SS, Smith JA, Tiwari HK, Tsai MY, Vasan RS, Wang FF, Weeks DE, Weng Z, Wilson JG, Yanek LR, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, TOPMed Lipids Working Group, Neale BM, Sunyaev SR, Abecasis GR, Rotter JI, Willer CJ, Peloso GM, Natarajan P, &amp; Lin X. (2020). Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale. <em>Nature Genetics, 52(9), 969-983</em></li></ul>",
+        "links": [
+          {
+            "label": "STAAR",
+            "href": "https://github.com/xihaoli/STAAR"
+          },
+          {
+            "label": "here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/STAAR-manual.pdf"
+          }
+        ]
+      },
+      {
+        "title": "MultiSTAAR",
+        "html": "<p><a href=\"https://github.com/xihaoli/MultiSTAAR\" rel=\"noopener noreferrer\" target=\"_blank\">MultiSTAAR</a> is an R package for performing Multi-trait variant-Set Test for Association using Annotation infoRmation (MultiSTAAR) procedure in whole-genome sequencing (WGS) studies. MultiSTAAR is a general framework that (1) leverages the correlation structure between multiple phenotypes to improve power of multi-trait analysis over single-trait analysis, and (2) incorporates both qualitative functional categories and quantitative complementary functional annotations using an omnibus multi-dimensional weighting scheme. MultiSTAAR accounts for population structure and relatedness, and is scalable for jointly analyzing large WGS studies of multiple correlated traits. See user manual <a href=\"https://github.com/xihaoli/MultiSTAAR/blob/main/docs/MultiSTAAR_manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Li X, Chen H, Selvaraj MS, Van Buren E, Zhou H, Wang Y, Sun R, McCaw ZR, Yu Z, Arnett DK, Bis JC, Blangero J, Boerwinkle E, Bowden DW, Brody JA, Cade BE, Carson AP, Carlson JC, Chami N, Chen YDI, Curran JE, de Vries PS, Fornage M, Franceschini N, Freedman BI, Gu C, Heard-Costa NL, He J, Hou L, Hung YJ, Irvin MR, Kaplan RC, Kardia SLR, Kelly T, Konigsberg I, Kooperberg C, Kral BG, Li C, Loos RJF, Mahaney MC, Martin LW, Mathias RA, Minster RL, Mitchell BD, Montasser ME, Morrison AC, Palmer ND, Peyser PA, Psaty BM, Raffield LM, Redlins S, Reiner AP, Rich SS, Sitlani CM, Smith JA, Taylor KD, Tiwari H, Vasan RS, Wang Z, Yu B, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, Rice KM, Rotter JI, Peloso GM, Natarajan P, Li Z, Liu Z, &amp; Lin, X. (2023+). A statistical framework for powerful multi-trait rare variant analysis in large-scale whole-genome sequencing studies. <em>bioRxiv, 2023.10.30.564764</em></li></ul>",
+        "links": [
+          {
+            "label": "MultiSTAAR",
+            "href": "https://github.com/xihaoli/MultiSTAAR"
+          },
+          {
+            "label": "here",
+            "href": "https://github.com/xihaoli/MultiSTAAR/blob/main/docs/MultiSTAAR_manual.pdf"
+          }
+        ]
+      },
+      {
+        "title": "GMMAT",
+        "html": "<p><a href=\"https://github.com/hanchenphd/GMMAT\" rel=\"noopener noreferrer\" target=\"_blank\">GMMAT</a> is an R package for performing genetic association tests in genome-wide association studies (GWAS) and sequencing association studies, for outcomes with distribution in the exponential family (e.g. binary outcomes) based on generalized linear mixed models (GLMMs). It can be used to analyze genetic data from individuals with population structure and relatedness. GMMAT fits a GLMM with covariate adjustment and random effects to account for population structure and familial or cryptic relatedness. For GWAS, GMMAT performs score tests for each genetic variant. For candidate gene studies, GMMAT can also perform Wald tests to get the effect size estimate for each genetic variant. For rare variant analysis from sequencing association studies, GMMAT performs the variant Set Mixed Model Association Tests (SMMAT), including the burden test, the sequence kernel association test (SKAT), SKAT-O and an efficient hybrid test of the burden test and SKAT, based on user-defined variant sets. See user manual <a href=\"https://github.com/hanchenphd/GMMAT/blob/master/inst/doc/GMMAT.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Breslow NE and Clayton DG. (1993) Approximate Inference in Generalized Linear Mixed Models. <em>Journal of the American Statistical Association</em> 88: 9-25.</li><li>Chen H, Wang C, Conomos MP, Stilp AM, Li Z, Sofer T, Szpiro AA, Chen W, Brehm JM, Celedon JC, Redline S, Papanicolaou GJ, Thornton TA, Laurie CC, Rice K and Lin X. (2016) Control for Population Structure and Relatedness for Binary Traits in Genetic Association Studies Using Logistic Mixed Models. <em>The American Journal of Human Genetics</em> 98(4): 653-666.</li><li>Han Chen, Jennifer E. Huffman, Jennifer A. Brody, Chaolong Wang, Seunggeun Lee, Zilin Li, Stephanie M. Gogarten, Tamar Sofer, Lawrence F. Bielak, Joshua C. Bis, John Blangero, Russell P. Bowler, Brian E. Cade, Michael H. Cho, Adolfo Correa, Joanne E. Curran, Paul S. de Vries, David C. Glahn, Xiuqing Guo, Andrew D. Johnson, Sharon Kardia, Charles Kooperberg, Joshua P. Lewis, Xiaoming Liu, Rasika A. Mathias, Braxton D. Mitchell, Jeffrey R. O’Connell, Patricia A. Peyser, Wendy S. Post, Alex P. Reiner, Stephen S. Rich, Jerome I. Rotter, Edwin K. Silverman, Jennifer A. Smith, Ramachandran S. Vasan, James G. Wilson, Lisa R. Yanek, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, TOPMed Hematology and Hemostasis Working Group, Susan Redline, Nicholas L. Smith, Eric Boerwinkle, Ingrid B. Borecki, L. Adrienne Cupples, Cathy C. Laurie, Alanna C. Morrison, Kenneth M. Rice, Xihong Lin. (2018) Efficient variant set mixed model association tests for continuous and binary traits in large-scale whole genome sequencing studies. Submitted.</li></ul>",
+        "links": [
+          {
+            "label": "GMMAT",
+            "href": "https://github.com/hanchenphd/GMMAT"
+          },
+          {
+            "label": "here",
+            "href": "https://github.com/hanchenphd/GMMAT/blob/master/inst/doc/GMMAT.pdf"
+          }
+        ]
+      },
+      {
+        "title": "SCANG",
+        "html": "<p><a href=\"https://github.com/zilinli1988/SCANG\" rel=\"noopener noreferrer\" target=\"_blank\">SCANG</a> is an R package for performing a flexible and computationally efficient scan statistic procedure (SCANG) that uses the p-value of a variant set-based test as a scan statistic of each moving window, to detect rare variant association regions for both continuous and dichotomous traits. The goal of SCANG is to detect whether any rare-variant association region exists across the genome, and if they do exist, to identify the locations and sizes of these association regions. Specifically, SCANG first fits the null linear or logistic model that includes covariates, e.g., age, sex and ancestry PCs, but no genetic variants. Second, SCANG applies set-based tests to all possible candidate moving windows of different sizes within a pre-specified window range of practical interest. Three tests are included in the SCANG framework: the burden test (SCANG-B), SKAT (SCANG-S) and an efficient omnibus test to aggregate information of the burden test and SKAT and different choices of weights using the ACAT method (SCANG-O). Third, SCANG generates an empirical threshold calculated by Monte Carlo simulation, to control the Genome-wise/Family-wise Type I Error Rate (GWER/FWER) at a given level, e.g., 0.05. The windows with the p-values smaller than this threshold are detected as genome-wise significant association regions. Both individual-window p-values and the genome-wise/family-wise p-values of these genome-wise significant windows are given. See user manual <a href=\"https://content.sph.harvard.edu/xlin/dat/SCANG-manual-v1.0.1.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Zilin Li, Xihao Li, Yaowu Liu, Jincheng Shen, Han Chen, Alanna C. Morrison, Eric Boerwinkle and Xihong Lin. (2019) Dynamic Scan Procedure for Detecting Rare-Variant Association Regions in Whole Genome Sequencing Studies. <em>The American Journal of Human Genetics</em> 104(5): 802-814.</li></ul>",
+        "links": [
+          {
+            "label": "SCANG",
+            "href": "https://github.com/zilinli1988/SCANG"
+          },
+          {
+            "label": "here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SCANG-manual-v1.0.1.pdf"
+          }
+        ]
+      },
+      {
+        "title": "SKAT",
+        "html": "<p><a href=\"http://www.hsph.harvard.edu/research/skat/index.html\">SKAT</a> is a R package for performing(1) Association tests between a set of common and rare SNPs and continuous and dichotomous (case-control) phenotypes using kernel machine methods for data from GWAS and genome-wide sequencing association studies</p><p>(2) Sample size and power calculatons for sequencing association studies.</p><p><strong>References:</strong></p><ul><li>Lee, Seunggeun, et al. (2012). <a href=\"https://content.sph.harvard.edu/xlin/pub/SmallSampleSKATfinal.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Optimal Unified Approach for Rare-Variant Association Testing with Application to Small-Sample Case-Control Whole-Exome Sequencing Studies </a>. <em>The American Journal of Human Genetics, </em>91.2, 224-237.</li><li>Lee, S., Wu, M.C. and Lin, X. (2012). <a href=\"https://content.sph.harvard.edu/xlin/pub/SKAT-O-Paper_Main.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Optimal tests for rare variant effects in sequencing association studies</a>. <em>Biostatistics</em>, 13.4, 762-775. <a href=\"https://content.sph.harvard.edu/xlin/pub/SKAT-O-Paper-supplemental.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Supplementary Materials</a>.</li><li>Wu, M. C., Lee, S., Cai, T., Li, Y., Boehnke, M. and Lin, X (2011) <a href=\"https://content.sph.harvard.edu/xlin/pub/SKAT-paper-and-supplement.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Rare Variant Association Testing for Sequencing Data Using the Sequence Kernel Association Test (SKAT). </a><em>American Journal of Human Genetics, </em>, 89.1, 82-93.</li><li>Wu, M. C., Kraft, P., Epstein, M. P.,Taylor, D., M., Chanock, S. J., Hunter, D., J., and Lin, X. (2010) <a href=\"https://content.sph.harvard.edu/xlin/pub/gwas-kmtest.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Powerful SNP Set Analysis for Case-Control GenomeWide Association Studies.</a><em>American Journal of Human Genetics, </em>, 86, 929-942.</li></ul>",
+        "links": [
+          {
+            "label": "SKAT",
+            "href": "http://www.hsph.harvard.edu/research/skat/index.html"
+          },
+          {
+            "label": "Optimal Unified Approach for Rare-Variant Association Testing with Application to Small-Sample Case-Control Whole-Exome Sequencing Studies",
+            "href": "https://content.sph.harvard.edu/xlin/pub/SmallSampleSKATfinal.pdf"
+          },
+          {
+            "label": "Optimal tests for rare variant effects in sequencing association studies",
+            "href": "https://content.sph.harvard.edu/xlin/pub/SKAT-O-Paper_Main.pdf"
+          },
+          {
+            "label": "Supplementary Materials",
+            "href": "https://content.sph.harvard.edu/xlin/pub/SKAT-O-Paper-supplemental.pdf"
+          },
+          {
+            "label": "Rare Variant Association Testing for Sequencing Data Using the Sequence Kernel Association Test (SKAT).",
+            "href": "https://content.sph.harvard.edu/xlin/pub/SKAT-paper-and-supplement.pdf"
+          },
+          {
+            "label": "Powerful SNP Set Analysis for Case-Control GenomeWide Association Studies.",
+            "href": "https://content.sph.harvard.edu/xlin/pub/gwas-kmtest.pdf"
+          }
+        ]
+      },
+      {
+        "title": "MetaSKAT",
+        "html": "<p><a href=\"http://www.hsph.harvard.edu/research/skat/metaskat\">MetaSKAT</a> is an R package for multiple marker meta-analysis across studies. It can carry out meta-analysis of SKAT, SKAT-O and burden tests with individual level genotype data or gene level summary statistics.</p><p><strong>References:</strong></p><ul><li>Lee, S., Teslovich, T.M., Boehnke, M. and Lin, X. (2013) General framework for meta-analysis of rare variants in sequencing association studies, <em>American Journal of Human Genetics</em>, in press.</li></ul>",
+        "links": [
+          {
+            "label": "MetaSKAT",
+            "href": "http://www.hsph.harvard.edu/research/skat/metaskat"
+          }
+        ]
+      },
+      {
+        "title": "gSKAT",
+        "html": "<p>gskat is a R package implements a family based association test via GEE Kernel Machine (KM) score test. It has functions to perform both burden test and SKAT test with family members as well as unrelated individuals. The package allows for both continuous and discrete traits in the association test.<a href=\"https://github.com/xfwang/\" rel=\"noopener noreferrer\" target=\"_blank\">Software download</a></p><p>User groups: Feel free to join in the group to ask / discuss / comment about the package on the <a href=\"https://groups.google.com/forum/-23-21forum/gskat-discussion-group\" rel=\"noopener noreferrer\" target=\"_blank\">forum</a>.</p><p><strong>References:</strong></p><ul><li>Wang X, Lee S, Zhu X, Redline S, and Lin X. (2013) GEE-Based SNP Set Association Test for Continuous and Discrete Traits in Family-Based Association Studies. Genet Epidemiol.?7:778-86.</li></ul>",
+        "links": [
+          {
+            "label": "Software download",
+            "href": "https://github.com/xfwang/"
+          },
+          {
+            "label": "forum",
+            "href": "https://groups.google.com/forum/-23-21forum/gskat-discussion-group"
+          }
+        ]
+      },
+      {
+        "title": "iSKAT/GESAT",
+        "html": "<p><a href=\"https://content.sph.harvard.edu/xlin/dat/iSKAT_1.2.tar.gz\" rel=\"noopener noreferrer\" target=\"_blank\">Software download </a>, <a href=\"https://content.sph.harvard.edu/xlin/dat/iSKAT-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Manual download </a>.</p><p><strong>References:</strong></p><ul><li>Lin, X., Lee, S.,Wu, M.,Wang, C., Chen H., Li, Z. and Lin, X. <a href=\"https://content.sph.harvard.edu/xlin/dat/iSKAT-v20posted.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Test for rare variants by environment interactions in sequencing association studies.</a> Biometrics, in press.</li><li>Lin, X., Lee, S., Christiani, D. C., and Lin, X. (2013). Test for the Interaction between a Genetic Marker Set and Environment in Generalized Linear Models. Biostatistics, 14: 667-681. doi:10.1093/biostatistics/kxt006.</li></ul>",
+        "links": [
+          {
+            "label": "Software download",
+            "href": "https://content.sph.harvard.edu/xlin/dat/iSKAT_1.2.tar.gz"
+          },
+          {
+            "label": "Manual download",
+            "href": "https://content.sph.harvard.edu/xlin/dat/iSKAT-manual.pdf"
+          },
+          {
+            "label": "Test for rare variants by environment interactions in sequencing association studies.",
+            "href": "https://content.sph.harvard.edu/xlin/dat/iSKAT-v20posted.pdf"
+          }
+        ]
+      },
+      {
+        "title": "MPAT",
+        "html": "<p><a href=\"https://content.sph.harvard.edu/xlin/dat/MPAT_1.0.tar.gz\" rel=\"noopener noreferrer\" target=\"_blank\">MPAT</a> is an R package for performing multiple phenotype association tests based on univarite GWAS summary statistics. It provides a toolkit of testing procedures to aggregate association evidence across multiple phenotypes for a given genetic variant. All the p-values can be efficiently computed. See user manual <a href=\"https://content.sph.harvard.edu/xlin/dat/MPAT-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><p><strong>References:</strong></p><ul><li>Liu Z and Lin X. (2016) Multiple Phenotype Association Test using Summary statistics in Genome-wide Association Studies. Submitted.</li><li>Liu Z and Lin X. (2016) A Geometric Perspective on the Powers of Principal Component Association Tests in Multiple Phenotype Studies. To be submitted.</li></ul>",
+        "links": [
+          {
+            "label": "MPAT",
+            "href": "https://content.sph.harvard.edu/xlin/dat/MPAT_1.0.tar.gz"
+          },
+          {
+            "label": "here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/MPAT-manual.pdf"
+          }
+        ]
+      },
+      {
+        "title": "SMAT",
+        "html": "<p>SMAT is an R package for performing the Scaled Multiple-phenotype Association Test in cohort or case-control designs to assess common effect of a single nucleotide polymorphism (SNP) on multiple (positively correlated) continuous outcomes measuring the same underlying trait.The current version of the R package is 0.98. Please download the <a href=\"https://content.sph.harvard.edu/xlin/dat/SMAT_0.98.tar.gz\" rel=\"noopener noreferrer\" target=\"_blank\">source .tar.gz file</a> or the <a href=\"https://content.sph.harvard.edu/xlin/dat/SMAT_0.98.zip\" rel=\"noopener noreferrer\" target=\"_blank\">.zip file</a> for installation. Please download the <a href=\"https://content.sph.harvard.edu/xlin/dat/SMAT-manual.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">manual PDF here</a>. <a href=\"https://content.sph.harvard.edu/xlin/dat/SMAT_example.zip\" rel=\"noopener noreferrer\" target=\"_blank\">Some example files</a> are also available for download.</p><p><strong>References:</strong></p><ul><li>Schifano, E.D., Li, L., Christiani, D.C., and Lin, X. (2012) Genome-wide Association Analysis for Multiple Continuous Secondary Phenotypes. (in revision)</li><li>Roy, J., Lin, X., and Ryan, L. (2003). Scaled Marginal Models For Multiple Continuous Outcomes. <em>Biostatistics</em>, 4, 371-384.</li></ul>",
+        "links": [
+          {
+            "label": "source .tar.gz file",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SMAT_0.98.tar.gz"
+          },
+          {
+            "label": ".zip file",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SMAT_0.98.zip"
+          },
+          {
+            "label": "manual PDF here",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SMAT-manual.pdf"
+          },
+          {
+            "label": "Some example files",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SMAT_example.zip"
+          }
+        ]
+      },
+      {
+        "title": "TEtest",
+        "html": "<p>TEtest is an R package for conducting integrated analyses of a set of SNPs as well as a gene expression. The program is able to test the overall effect regardless it is from SNPs or gene expression. The testing procedure accommodates various candidate models: SNP-only model, main effect model and main effect plus interaction model.<a href=\"https://content.sph.harvard.edu/xlin/dat/TEtest_V0.zip\" rel=\"noopener noreferrer\" target=\"_blank\">Software download here.</a></p><p><strong>References:</strong></p><ul><li>Huang YT, VanderWeele TJ and Lin X (2012) (2014). Joint analysis of SNP and gene expression data in genetic association studies of complex diseases. Annals of Applied Statistics 2014; 8:352-376.</li><li>Roy, J., Lin, X., and Ryan, L. (2003). Scaled Marginal Models For Multiple Continuous Outcomes. <em>Biostatistics</em>, 4, 371-384.</li></ul>",
+        "links": [
+          {
+            "label": "Software download here.",
+            "href": "https://content.sph.harvard.edu/xlin/dat/TEtest_V0.zip"
+          }
+        ]
+      },
+      {
+        "title": "iGWAS",
+        "html": "<p>iGWAS is an R package for conducting mediation analyses for an eQTL SNP set and a gene expression. The testing procedure examines the effect of eQTL SNPs on a dichotomous outcome mediated through gene expression (indirect effect) and the effect independent of gene expression (direct effect). The method accommodates models with and without SNPs-by-gene expression interaction, and includes an omnibus test to select the optimal model using perturbation. The procedure also incorporates family-design where subjects are not independent.</p><p><a href=\"https://content.sph.harvard.edu/xlin/dat/iGWAS_v1.zip\" rel=\"noopener noreferrer\" target=\"_blank\">Software download here.</a></p><p><strong>References:</strong></p><ul><li>Huang YT, Liang L, Cookson W OCM, Moffatt M and Lin X (2015). iGWAS: integrative genome-wide association studies using mediation analysis. Genetic Epidemiology 2015; 39:347-356.</li></ul>",
+        "links": [
+          {
+            "label": "Software download here.",
+            "href": "https://content.sph.harvard.edu/xlin/dat/iGWAS_v1.zip"
+          }
+        ]
+      },
+      {
+        "title": "ACAT",
+        "html": "<p><a href=\"https://github.com/yaowuliu/ACAT\" rel=\"noopener noreferrer\" target=\"_blank\">ACAT</a> is an R package for implement a generic method for combining p-values. For example, if ACAT is used to combine the variant-level (or SNV-level) p-values, it is a set-based test that is particularly powerful when only a small proportion of variants are casual. ACAT can also be used as an omnibus testing procedure to combine multiple set-level p-values, e.g., the p-values of SKAT or burden tests. The p-value of ACAT is approximated by a Cauchy distribution without the need to know the dependency of the p-values combined by ACAT, which makes the computation of ACAT super fast. This approximation is particularly accurate in the tail of the null distribution.</p><p><strong>References:</strong></p><ul><li>Liu, Y., Chen, S., Li, Z., Morrison, A. C., Boerwinkle, E., &amp; Lin, X. (2019). ACAT: A Fast and Powerful p Value Combination Method for Rare-Variant Analysis in Sequencing Studies. The American Journal of Human Genetics,104(3), 410-421.</li></ul>",
+        "links": [
+          {
+            "label": "ACAT",
+            "href": "https://github.com/yaowuliu/ACAT"
+          }
+        ]
+      },
+      {
+        "title": "Sparse PCA",
+        "html": "<p><a href=\"https://content.sph.harvard.edu/xlin/dat/SparsePCA_ftn.r\" rel=\"noopener noreferrer\" target=\"_blank\">R functions</a> for sparse PCA and some <a href=\"https://content.sph.harvard.edu/xlin/dat/SparsePCA_example.r\" rel=\"noopener noreferrer\" target=\"_blank\">examples</a>.<strong>References:</strong></p><ul><li>Lee, S., Epstein, M.P., Duncan, R. and Lin, X. (2012) Sparse principal component analysis for identifying ancestry-informative markers in genome-wide association studies. <em>Genetic Epidemiology </em>, 36.4, 293-302.</li></ul>",
+        "links": [
+          {
+            "label": "R functions",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SparsePCA_ftn.r"
+          },
+          {
+            "label": "examples",
+            "href": "https://content.sph.harvard.edu/xlin/dat/SparsePCA_example.r"
+          }
+        ]
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p>The Lin Lab is at the forefront of developing and applying scalable statistical and machine learning methods for analyzing large datasets encompassing the genome, exome, exposome, and phenome. Our research spans diverse areas, including big and complex genetic and genomic data studies, variant functional annotations, gene-environment interactions, multi-phenotype analysis, polygenic risk prediction, and heritability estimation. Additionally, we explore integrative analysis of various data types, Mendelian randomization, causal mediation analysis, federated and transferred learning, single-cell genomics, complex observational studies, and the analysis of COVID-19 epidemic data.</p>",
+        "links": []
+      },
+      {
+        "title": "Contributions",
+        "html": "<p>The Lin Lab recently developed methods for functionally-informed rare variant association testing in Whole Genome Sequencing (WGS) and biobank datasets (<a href=\"https://www.nature.com/articles/s41588-020-0676-4\" rel=\"noopener noreferrer\" target=\"_blank\">STAAR</a>, <a href=\"https://www.nature.com/articles/s41592-022-01641-w\" rel=\"noopener noreferrer\" target=\"_blank\">STAARPipeline</a>), including meta-analysis (<a href=\"https://www.nature.com/articles/s41588-022-01225-6\" rel=\"noopener noreferrer\" target=\"_blank\">metaSTAAR</a>) and multi-trait analysis (multiSTAAR). Current extensions to this work include integrating single-cell sequencing data into such analyses to boost statistical power and interpretation (cellSTAAR) and extensions to analyze gene-environment interactions. As part of these efforts, the <a href=\"https://academic.oup.com/nar/article/51/D1/D1300/6814464\" rel=\"noopener noreferrer\" target=\"_blank\">FAVOR</a> database (<a href=\"http://favor.genohub.org/\" rel=\"noopener noreferrer\" target=\"_blank\">favor.genohub.org</a>) was created to provide comprehensive genome-wide annotations. We also helped develop improved methods for polygenic risk scores in diverse populations (<a href=\"https://www.nature.com/articles/s41588-023-01501-z\" rel=\"noopener noreferrer\" target=\"_blank\">CT-SLEB</a>). The Lin Lab plays an instrumental role in advancing large-scale whole-genome and whole-exome analysis through its significant contributions to the development of innovative genetic-based ethnicity prediction methods and rigorous quality control protocols. </p><p>The Lin Lab is also dedicated to researching the genetic, environmental, and lifestyle factors that contribute to Lung Cancer. We are actively involved in developing innovative methods to identify and interpret crucial genetic variants relevant to squamous cell lung cancer, adenocarcinoma lung cancer, and Non-Small Cell Lung Cancers (NSLCs).(<a href=\"https://onlinelibrary.wiley.com/doi/10.1002/gepi.22358\" rel=\"noopener noreferrer\" target=\"_blank\">multiomic annotation</a>, <a href=\"https://academic.oup.com/jnci/article/113/12/1761/6296846\" rel=\"noopener noreferrer\" target=\"_blank\">smoking history</a>).</p>",
+        "links": [
+          {
+            "label": "STAAR",
+            "href": "https://www.nature.com/articles/s41588-020-0676-4"
+          },
+          {
+            "label": "STAARPipeline",
+            "href": "https://www.nature.com/articles/s41592-022-01641-w"
+          },
+          {
+            "label": "metaSTAAR",
+            "href": "https://www.nature.com/articles/s41588-022-01225-6"
+          },
+          {
+            "label": "FAVOR",
+            "href": "https://academic.oup.com/nar/article/51/D1/D1300/6814464"
+          },
+          {
+            "label": "favor.genohub.org",
+            "href": "http://favor.genohub.org/"
+          },
+          {
+            "label": "CT-SLEB",
+            "href": "https://www.nature.com/articles/s41588-023-01501-z"
+          },
+          {
+            "label": "multiomic annotation",
+            "href": "https://onlinelibrary.wiley.com/doi/10.1002/gepi.22358"
+          },
+          {
+            "label": "smoking history",
+            "href": "https://academic.oup.com/jnci/article/113/12/1761/6296846"
+          }
+        ]
+      },
+      {
+        "title": "Areas of Interest",
+        "html": "<ul><li>WGS association studies: UKBiobank, TOPMed, GSP, AllofUs, etc.</li><li>Integration of single-cell &amp; multi-omics data in WGS analysis</li><li>Prioritizing causal variants with functional annotations (IGVF consortium)</li><li>Single-cell RNA-sequencing &amp; functional annotation tool development</li><li>Quality control for large-scale WGS/WES data &amp; rare variant analysis</li><li>Scalable methods for polygenic risk score construction &amp; improving risk prediction accuracy</li><li>Lung cancer epidemiology (ILCCO), cardiovascular diseases, &amp; sleep apnea research</li><li>Statistical genetics/genomics, causal inference, and Mendelian Randomization</li><li>Pathway/network analysis, and integrative data analysis</li><li>Focus on common diseases, genes, environment, epigenetics</li><li>Nonparametric/semiparametric regression, mixed models, correlated data analysis</li><li>Measurement error in genetic epidemiology/environmental genetics/genomics research</li></ul>",
+        "links": []
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "sections": [
+      {
+        "title": "2024",
+        "html": "<h3>Ruoyu Wang, Haoyu Zhang</h3><p>Debiased Estimating Equation Method for Versatile and Efficient Mendelian Randomization Using Large Numbers of Correlated and Invalid SNPs with Weak Effects</p><p><em>Mendelian randomization (MR) is a powerful tool for uncovering the causal effects in the presence of unobserved confounding. It utilizes single nucleotide polymorphisms (SNPs) as instrumental variables (IVs) to estimate the causal effect. However, SNPs often have small effects on complex traits, leading to bias and low statistical efficiency in MR analysis. The strong linkage disequilibrium among SNPs is compounding this issue, which poses additional statistical hurdles. To address these challenges, this paper proposes DEEM (Debiased Estimating Equation Method), a summary statistics-based MR approach that can incorporate numerous correlated SNPs with weak effects. DEEM effectively eliminates the weak IV bias, adequately accounts for the correlations among SNPs, and enhances efficiency by leveraging information from correlated weak IVs. DEEM is a versatile method that allows adjustment for pleiotropic effects and applies to both two-sample and one-sample MR analyses. We establish the consistency and asymptotic normality of the resulting estimator. Extensive simulations and two real data examples demonstrate that DEEM can improve the efficiency and robustness of MR analysis.</em></p><p>Presented at <a href=\"https://www.enar.org/meetings/spring2024/\" rel=\"noopener noreferrer\" target=\"_blank\">ENAR 2024</a> &amp; <a href=\"https://ww2.amstat.org/meetings/jsm/2024/\" rel=\"noopener noreferrer\" target=\"_blank\">JSM 2024</a></p><h3>Ruoyu Wang</h3><p>Divide-and-shrink: a heterogeneity-agnostic approach for safe data integration</p><p><em>Data integration is garnering significant interest in modern data science due to the increasing accessibility of data from diverse sources. However, the effectiveness of data integration is often challenged by the widespread and intricate heterogeneity among data sources. This paper focuses on integrating individual-level data from a target population with summary statistics from a source population. We propose the divide-and-shrink (dShrink) method to incorporate the summary statistics. The dShrink method is distinctive for being tuning-free, model-free, and robust to broad types of heterogeneity between data sources. The dShrink method is guaranteed to outperform the estimator without data integration and can achieve a significant error reduction when the target and source populations are similar. Moreover, it offers flexibility to incorporate auxiliary information and to operate effectively even when the covariance matrix of the summary statistics is not accessible. Empirical evaluations of the dShrink estimator reveal its advantageous performance, underscoring its potential as a robust tool for data integration tasks.</em></p><p>Presented at <a href=\"https://imstat.org/meetings-calendar/ims-china-meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">2024 IMS China Meeting</a></p><h3>Tony Chen</h3><p>ALL-Sum: Fast and scalable ensemble learning method for versatile polygenic risk prediction</p><p><em>Polygenic risk scores (PRS) using data from genome-wide association studies (GWAS) have garnered significant interest for predicting individuals’ genetic predisposition to complex traits and diseases. PRS present great potential for early disease detection, high-risk subject identification, and disease prevention and intervention. Existing PRS methodology faces a challenge of balancing prediction accuracy and computational efficiency. To tackle these challenges, we propose ALL-Sum, which integrates L0L2-penalized regression and ensemble learning using GWAS summary statistics. Our extensive simulations and analysis of 11 traits and diseases demonstrate ALL-Sum’s robustness to a broad spectrum of phenotypes and genetic architectures, offering improved prediction accuracy, runtime, and memory usage compared to the most commonly used methods. ALL-Sum stands as a promising tool to refine clinical risk assessment.</em></p><p>Presented at <a href=\"https://ww2.amstat.org/meetings/jsm/2023/\" rel=\"noopener noreferrer\" target=\"_blank\">JSM 2023</a>, <a href=\"https://www.ashg.org/meetings/2023meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">ASHG 2023</a> &amp; ILCCO/LC3/INTEGRAL Annual Meeting 2023<br/>GitHub: <a href=\"https://github.com/chen-tony/ALL-Sum\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/chen-tony/ALL-Sum</a><br/>Published in PNAS: <a href=\"https://www.pnas.org/doi/10.1073/pnas.2403210121\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.pnas.org/doi/10.1073/pnas.2403210121</a></p><h3>Tony Chen</h3><p>SPLENDID incorporates continuous genetic ancestry in biobank-scale data to improve polygenic risk prediction across diverse populations</p><p><em>Polygenic risk scores are widely used in disease risk stratification, but their accuracy varies across diverse populations. Recent methods large-scale leverage multi-ancestry data to improve accuracy in under-represented populations but require labelling individuals by ancestry for prediction. This poses challenges for practical use, as clinical practices are typically not based on ancestry. We propose SPLENDID, a novel penalized regression framework for diverse biobank-scale data. Our method utilizes ancestry principal component interactions to model genetic ancestry as a continuum within a single prediction model for all ancestries, eliminating the need for discrete labels. In extensive simulations and analyses of 9 traits from the All of Us Research Program and UK Biobank, SPLENDID significantly outperformed existing methods in prediction accuracy and model sparsity. By directly incorporating continuous genetic ancestry in model training, SPLENDID stands as a valuable tool for robust risk prediction across diverse populations and fairer clinical implementation.</em></p><p>Presented at <a href=\"https://www.ashg.org/meetings/2024meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">ASHG 2024</a> &amp; PRIMED Methods Working Group</p>",
+        "links": [
+          {
+            "label": "ENAR 2024",
+            "href": "https://www.enar.org/meetings/spring2024/"
+          },
+          {
+            "label": "JSM 2024",
+            "href": "https://ww2.amstat.org/meetings/jsm/2024/"
+          },
+          {
+            "label": "2024 IMS China Meeting",
+            "href": "https://imstat.org/meetings-calendar/ims-china-meeting/"
+          },
+          {
+            "label": "JSM 2023",
+            "href": "https://ww2.amstat.org/meetings/jsm/2023/"
+          },
+          {
+            "label": "ASHG 2023",
+            "href": "https://www.ashg.org/meetings/2023meeting/"
+          },
+          {
+            "label": "https://github.com/chen-tony/ALL-Sum",
+            "href": "https://github.com/chen-tony/ALL-Sum"
+          },
+          {
+            "label": "https://www.pnas.org/doi/10.1073/pnas.2403210121",
+            "href": "https://www.pnas.org/doi/10.1073/pnas.2403210121"
+          },
+          {
+            "label": "ASHG 2024",
+            "href": "https://www.ashg.org/meetings/2024meeting/"
+          }
+        ]
+      },
+      {
+        "title": "2023",
+        "html": "<h3>Eric Van Buren, Hufeng Zhou, Yi Zhang</h3><p>Integration of Single-Cell-Sequencing Data into Rare Variant Association Tests</p><p><em>Existing methods for performing rare variant association testing in candidate cis-regulatory element regions do not integrate single-cell-sequencing data, and therefore cannot capture the variability in regulatory element activity between cell types. cellSTAAR, a new method in development, uses functional annotations and variant sets constructed using single-cell-sequencing data to conduct functionally-informed rare variant association testing by cell type.</em></p><p>Presented at <a href=\"https://biggsinstitute.org/events/charge/\" rel=\"noopener noreferrer\" target=\"_blank\">CHARGE 2023</a> &amp; <a href=\"https://www.ashg.org/meetings/2023meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">ASHG 2023</a></p><h3>Eric Van Buren, Hufeng Zhou</h3><p>Computational Prioritization of IGVF Experimental Variants using Functional Annotation &amp; Variant Characterization Data</p><p><em>The IGVF consortium aims to massively enhance our understanding of how genetic variation influences disease through the use of experimental techniques and computational modelling. To help experimental center prioritize variants for future study, and to benchmark the value of various annotation data and computational methods, we are working collaboratively with multiple IGVF centers to build a predictive model designed to prioritize variants which are likely to be functional for experimental study.</em></p><p>Presented at IGVF Annual Meeting in 2023</p><h3>Rebecca Danning</h3><p>LACE-UP: An Ensembling Method for Clustering Binary Symptom Data</p><p><em>Neuropsychiatric and behavioral conditions often lack biomarkers and are diagnosed based on the presence or absence of a variety of traits, leading to highly heterogeneous phenotypes that may comprise latent subtypes. Detecting these subtypes can be challenging due to a lack of existing methods for clustering binary data that are robust to various realistic data settings, including not knowing the number of subtypes, the inclusion of symptoms that are unrelated to the true underlying disease, and correlation of symptoms within individuals. LACE-UP is a novel and robust method for clustering binary data that does not require prespecifying the number of clusters and outperforms gold standard techniques in the presence of extraneous variables and local dependence.</em></p><p>Poster presentation at <a href=\"https://www.ashg.org/meetings/2023meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">ASHG 2023</a></p><h3>Hui Li</h3><p>HEELS: Accurate and Efficient Estimation of Local Heritability using Summary Statistics and LD Matrix</p><p><em>Existing SNP-heritability estimators that leverage summary statistics from genome-wide association studies (GWAS) are much less efficient (i.e., have larger standard errors) than the restricted maximum likelihood (REML) estimators which require access to individual-level data. We introduce a new method for local heritability estimation – Heritability Estimation with high Efficiency using LD and association Summary Statistics (HEELS) – that significantly improves the statistical efficiency of summary-statistics-based heritability estimator and attains comparable statistical efficiency as REML (with a relative statistical efficiency greater than $92%). Moreover, we propose representing the empirical LD matrix as the sum of a low-rank matrix and a banded matrix. We show that this way of modeling the LD can only reduce the storage and memory cost, but also improve the computational efficiency of heritability estimation. We demonstrate the statistical efficiency of HEELS and the advantages of our proposed LD approximation strategies both in simulations and through empirical analyses of the UK Biobank data.</em></p><p>Github repository: <a href=\"https://github.com/huilisabrina/HEELS\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/huilisabrina/HEELS</a><br/>Presented at <a href=\"https://www.enar.org/meetings/spring2023/\" rel=\"noopener noreferrer\" target=\"_blank\">ENAR 2023</a>, <a href=\"https://www.ashg.org/meetings/2023meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">ASHG 2023</a> &amp; <a href=\"https://archive.nestat.org/symposium2022/html/\" rel=\"noopener noreferrer\" target=\"_blank\">NESS 2022</a><br/>Published in <a href=\"https://www.nature.com/articles/s41467-023-43565-9\" rel=\"noopener noreferrer\" target=\"_blank\">Nature Communications</a></p><h3>Hui Li</h3><p>graphREML: Heritability partitioning and enrichment analyses with higher precision</p><p><em>Heritability enrichment analysis has been one of the most valuable approaches to understand genetic architecture and to link functional genomic datasets with disease genetics. Stratified LD score regression (S-LDSC) is the most widely used method for heritability partitioning and enrichment analyses, but S-LDSC has low statistical power; moreover, S-LDSC assumes an unrealistic linear relationship between the heritability of a SNP and its annotations. Recently, Salehi et al. proposed “LD graphical models (LDGMs)”, which represent LD patterns using extremely sparse matrices derived from genome-wide genealogies (Kelleher et al. 2019). LDGMs enable the use of efficient sparse matrix operations, potentially addressing the challenge of likelihood-based heritability partitioning. We introduce graphREML, a new heritability partitioning method that operates on GWAS summary statistics and sparse representations of the LD via the LDGM precision matrices, allowing for overlapping and continuous annotations. In both simulation studies and analyses of real traits, we found that graphREML improves upon S-LDSC by modeling the full likelihood of the summary statistics, and is robust to out-of-sample application of the LD.</em></p><p>Github repository: <a href=\"https://github.com/huilisabrina/graphREML\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/huilisabrina/graphREML</a><br/>Presented at <a href=\"https://www.ashg.org/meetings/2023meeting/\" rel=\"noopener noreferrer\" target=\"_blank\">ASHG 2023</a>, <a href=\"https://ww2.amstat.org/meetings/jsm/2023/\" rel=\"noopener noreferrer\" target=\"_blank\">JSM 2023</a> &amp; <a href=\"https://meetings.cshl.edu/meetings.aspx?meet=PROBGEN&amp;year=23\" rel=\"noopener noreferrer\" target=\"_blank\">Probabilistic Modeling in Genomics 2023</a></p>",
+        "links": [
+          {
+            "label": "CHARGE 2023",
+            "href": "https://biggsinstitute.org/events/charge/"
+          },
+          {
+            "label": "ASHG 2023",
+            "href": "https://www.ashg.org/meetings/2023meeting/"
+          },
+          {
+            "label": "ASHG 2023",
+            "href": "https://www.ashg.org/meetings/2023meeting/"
+          },
+          {
+            "label": "https://github.com/huilisabrina/HEELS",
+            "href": "https://github.com/huilisabrina/HEELS"
+          },
+          {
+            "label": "ENAR 2023",
+            "href": "https://www.enar.org/meetings/spring2023/"
+          },
+          {
+            "label": "ASHG 2023",
+            "href": "https://www.ashg.org/meetings/2023meeting/"
+          },
+          {
+            "label": "NESS 2022",
+            "href": "https://archive.nestat.org/symposium2022/html/"
+          },
+          {
+            "label": "Nature Communications",
+            "href": "https://www.nature.com/articles/s41467-023-43565-9"
+          },
+          {
+            "label": "https://github.com/huilisabrina/graphREML",
+            "href": "https://github.com/huilisabrina/graphREML"
+          },
+          {
+            "label": "ASHG 2023",
+            "href": "https://www.ashg.org/meetings/2023meeting/"
+          },
+          {
+            "label": "JSM 2023",
+            "href": "https://ww2.amstat.org/meetings/jsm/2023/"
+          },
+          {
+            "label": "Probabilistic Modeling in Genomics 2023",
+            "href": "https://meetings.cshl.edu/meetings.aspx?meet=PROBGEN&year=23"
+          }
+        ]
+      }
+    ]
+  },
+  "consortia": {
+    "title": "Consortia and Affiliates",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p>The Lin Lab works with several consortia and affiliates to further our work in the field of genomics and biostatistics, including the following:</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<ul><li>TOPMed <a href=\"https://topmed.nhlbi.nih.gov/\" rel=\"noopener noreferrer\" target=\"_blank\">NHLBI Trans-Omics for Precision Medicine WGS-About TOPMed (nih.gov)</a></li><li>GSP <a href=\"https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program\" rel=\"noopener noreferrer\" target=\"_blank\">Genome Sequencing Program</a></li><li>UKBiobank <a href=\"https://www.ukbiobank.ac.uk/\" rel=\"noopener noreferrer\" target=\"_blank\">UK Biobank – UK Biobank</a></li><li>AllofUS <a href=\"https://allofus.nih.gov/\" rel=\"noopener noreferrer\" target=\"_blank\">All of Us Research Program | National Institutes of Health (NIH)</a></li><li>IGVF <a href=\"https://igvf.org/\" rel=\"noopener noreferrer\" target=\"_blank\">Impact of Genomic Variation on Function (IGVF) Consortium</a></li><li>ILCCO <a href=\"https://ilcco.iarc.fr/\" rel=\"noopener noreferrer\" target=\"_blank\">International Lung Cancer Consortium</a></li></ul>",
+        "links": [
+          {
+            "label": "NHLBI Trans-Omics for Precision Medicine WGS-About TOPMed (nih.gov)",
+            "href": "https://topmed.nhlbi.nih.gov/"
+          },
+          {
+            "label": "Genome Sequencing Program",
+            "href": "https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program"
+          },
+          {
+            "label": "UK Biobank – UK Biobank",
+            "href": "https://www.ukbiobank.ac.uk/"
+          },
+          {
+            "label": "All of Us Research Program | National Institutes of Health (NIH)",
+            "href": "https://allofus.nih.gov/"
+          },
+          {
+            "label": "Impact of Genomic Variation on Function (IGVF) Consortium",
+            "href": "https://igvf.org/"
+          },
+          {
+            "label": "International Lung Cancer Consortium",
+            "href": "https://ilcco.iarc.fr/"
+          }
+        ]
+      }
+    ]
+  },
+  "openPositions": {
+    "title": "Open Positions",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p><a href=\"https://academicpositions.harvard.edu/postings/15788\" rel=\"noopener noreferrer\" target=\"_blank\">Postdoctoral Research Position in Statistical Genetics and Genomics</a></p>",
+        "links": [
+          {
+            "label": "Postdoctoral Research Position in Statistical Genetics and Genomics",
+            "href": "https://academicpositions.harvard.edu/postings/15788"
+          }
+        ]
+      }
+    ]
+  },
+  "researchGrants": {
+    "title": "Research Grants",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p>The following grants and programs support the Lin Lab’s statistical methodological research:</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<ul><li><a href=\"https://reporter.nih.gov/search/On2mZB7cKkC56Ecd8DRjaA/project-details/9120850\" rel=\"noopener noreferrer\" target=\"_blank\">Statistical Methods for Analysis of Massive Genetic and Genomic Data in Cancer Research</a> (2015-2029) – the National Cancer Institute (NCI)</li><li><a href=\"https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10622567\" rel=\"noopener noreferrer\" target=\"_blank\">Statistical Methods for Integrative Analysis of Large-Scale Multi-Ethnic Whole Genome Sequencing Studies and Biobanks of Common Diseases</a> – the National Heart, Lung, and Blood Institute</li><li><a href=\"https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10626068\" rel=\"noopener noreferrer\" target=\"_blank\">Impact of Genomic Variation on Function (IGVF)</a> – Program of the National Human Genome Research Institute (NHGRI)</li><li><a href=\"https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10374812\" rel=\"noopener noreferrer\" target=\"_blank\">Integrative Analysis of Lung Cancer Etiology and Risk</a> – Baylor College of Medicine</li><li><a href=\"https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10640852\" rel=\"noopener noreferrer\" target=\"_blank\">T32 training grant on interdisciplinary training in statistical genetics and computational biology</a></li><li><a href=\"https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833416\" rel=\"noopener noreferrer\" target=\"_blank\">Emerging Statistical and Quantitative Issues in Genomic Research in Health Sciences</a> – National Science Foundation</li><li><a href=\"https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=OT2HL161841&amp;arg_ProgOfficeCode=130\" rel=\"noopener noreferrer\" target=\"_blank\">Interactive Data Portals and Robust Analytics Tools to Wrap PASC Cohorts (iDRAW)</a> – Massachusetts General Hospital</li><li><a href=\"https://reporter.nih.gov/search/0oTRqMKKBUW4ME6_TlMkWw/project-details/10626068\" rel=\"noopener noreferrer\" target=\"_blank\">Predictive Modeling of the Functional and Phenotypic Impacts of Genetic Variants</a> – University of Massachusetts Medical School</li></ul>",
+        "links": [
+          {
+            "label": "Statistical Methods for Analysis of Massive Genetic and Genomic Data in Cancer Research",
+            "href": "https://reporter.nih.gov/search/On2mZB7cKkC56Ecd8DRjaA/project-details/9120850"
+          },
+          {
+            "label": "Statistical Methods for Integrative Analysis of Large-Scale Multi-Ethnic Whole Genome Sequencing Studies and Biobanks of Common Diseases",
+            "href": "https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10622567"
+          },
+          {
+            "label": "Impact of Genomic Variation on Function (IGVF)",
+            "href": "https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10626068"
+          },
+          {
+            "label": "Integrative Analysis of Lung Cancer Etiology and Risk",
+            "href": "https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10374812"
+          },
+          {
+            "label": "T32 training grant on interdisciplinary training in statistical genetics and computational biology",
+            "href": "https://reporter.nih.gov/search/UrBAufTy0kSS70jZeWdnpA/project-details/10640852"
+          },
+          {
+            "label": "Emerging Statistical and Quantitative Issues in Genomic Research in Health Sciences",
+            "href": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833416"
+          },
+          {
+            "label": "Interactive Data Portals and Robust Analytics Tools to Wrap PASC Cohorts (iDRAW)",
+            "href": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=OT2HL161841&arg_ProgOfficeCode=130"
+          },
+          {
+            "label": "Predictive Modeling of the Functional and Phenotypic Impacts of Genetic Variants",
+            "href": "https://reporter.nih.gov/search/0oTRqMKKBUW4ME6_TlMkWw/project-details/10626068"
+          }
+        ]
+      }
+    ]
+  },
+  "genomicsTrainingGrant": {
+    "title": "Genomics Training Grant",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p>Dr. Lin’s mission to advance our understanding of genomics and human disease, has lead to the creation of the Genomics Training Grant program at Harvard. The program reflects Dr. Lin’s commitment to training future leaders in statistical genetics, genomics, and computational biology by fostering interdisciplinary research and methodological innovation.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>Supported by the NIH (T32GM135117), the program equips doctoral students in Biostatistics and Epidemiology with the skills to develop and apply advanced statistical and computational methods for analyzing massive genetic, genomic, epidemiological, and clinical datasets. Trainees also gain practical experience in molecular biology, genetic epidemiology, and clinical genomics while learning to collaborate effectively with biologists, clinicians, and public health researchers.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>Key components of the program include rigorous coursework, hands-on lab rotations, and a focus on big data science and reproducible research. Students complete three lab rotations: one in a wet lab to gain experimental research experience and two in dry labs focused on computational approaches. These rotations foster interdisciplinary dissertation projects and valuable mentorship opportunities.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>The program also provides career development through the Individual Development Plan (IDP) process, helping trainees align their career objectives with skill-building opportunities. With leadership from Dr. Lin and co-Director Dr. Curtis Huttenhower, a Professor of Computational Biology and Bioinformatics in the Department of Biostatistics, and contributions from associate directors Dr. Peter Kraft and Dr. John Quackenbush, the program prepares trainees to tackle complex genomic challenges and lead advancements in genomic medicine and public health.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>By combining rigorous training with interdisciplinary collaboration, the Genomics Training Grant program develops future quantitative leaders who are ready to address the most pressing questions in genomics and human health.</p>",
+        "links": []
+      }
+    ]
+  },
+  "pqgTravelFund": {
+    "title": "PQG Student/Postdoc Travel Fund",
+    "sections": [
+      {
+        "title": null,
+        "html": "<p>The Program in Quantitative Genomics (PQG) at the Harvard T.H. Chan School of Public Health, directed by Dr. Xihong Lin, bridges disciplines to advance genomics and human health. PQG provides a collaborative environment where students, postdocs, and faculty explore innovative research at the intersection of biostatistics, statistical genetics, computational biology, and genetic epidemiology. Through academic programs, mentorship, and NIH-supported research, PQG empowers the next generation of scientists to tackle complex genomic challenges.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>Many Lin Lab students present at the annual PQG Conference, and the PQG Student/Postdoc Travel Fund affords them the opportunity to present their research to their peers and leaders in academia and industry.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>Together, PQG and the Lin Lab exemplify the power of interdisciplinary collaboration in advancing genomics and improving health worldwide.</p>",
+        "links": []
+      }
+    ]
+  },
+  "home": {
+    "sections": [
+      {
+        "title": null,
+        "html": "<h2>Who We Are</h2>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>The Lin Lab, directed by Dr. Xihong Lin at the Harvard T.H. Chan School of Public Health, conducts cutting-edge research at the intersection of genomics, biostatistics, and public health. Our interdisciplinary team of research scientists, postdoctoral fellows, software developers, and doctoral students brings a wide range of expertise to this mission.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>We focus on developing and applying scalable statistical and machine learning methods to analyze large-scale genetic, genomic, epidemiological, and health datasets. Core research areas include whole genome sequencing, biobanks, electronic health records, gene-environment interactions, multiple phenotype analysis, polygenic risk prediction, and heritability estimation.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>Our team also addresses complex challenges in causal inference – such as Mendelian Randomization and mediation analysis – and advances methods for integrative analysis of whole-genome and single-cell sequencing data. In addition, we analyze epidemiological and COVID-19 data to support evidence-based public health initiatives.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>In the area of phenotypic analysis, we are developing nonlinear machine learning and latent variable methods to improve phenotypic refinement. We have also created scalable algorithms for polygenic risk score construction, enhancing prediction accuracy across a range of complex traits.</p>",
+        "links": []
+      },
+      {
+        "title": null,
+        "html": "<p>To support these efforts, we have developed several software tools, including FAVOR, STAAR, and STAARpipeline, as well as interactive platforms for our COVID-19 spread mapper and functional variant annotation projects. These resources enable robust and reproducible genomic and health data analysis.</p>",
+        "links": []
+      }
+    ],
+    "news": [
+      {
+        "title": "Dr. José Zubizarreta receives the 2026 Myrto Lefkopoulou Distinguished Lectureship",
+        "href": "https://hsph.harvard.edu/biostatistics/news/dr-jose-zubizarreta-receives-the-2026-myrto-lefkopoulou-distinguished-lectureship/",
+        "date": "August 28, 2026",
+        "image": "/images/gallery/news-dr-jose-zubizarreta-receives-the-2026-myrto-lefk.jpg",
+        "alt": ""
+      },
+      {
+        "title": "Predicting data centers’ energy and health impacts",
+        "href": "https://hsph.harvard.edu/news/predicting-data-centers-energy-and-health-impacts/",
+        "date": "August 26, 2026",
+        "image": "/images/gallery/news-predicting-data-centers-energy-and-health-impact.jpg",
+        "alt": "Aerial view of a large data center campus in Hutto, Texas."
+      },
+      {
+        "title": "Experts discuss AI’s growing role in transforming health care",
+        "href": "https://hsph.harvard.edu/news/experts-discuss-ais-growing-role-in-transforming-health-care/",
+        "date": "June 15, 2026",
+        "image": "/images/gallery/news-experts-discuss-ais-growing-role-in-transforming.jpg",
+        "alt": "Screenshot of panelists in individual Zoom windows"
+      },
+      {
+        "title": "Nicholas Horton elected ASA President for 2028",
+        "href": "https://hsph.harvard.edu/biostatistics/news/nicholas-horton-elected-asa-president-for-2028/",
+        "date": "June 9, 2026",
+        "image": "/images/gallery/news-nicholas-horton-elected-asa-president-for-2028.jpg",
+        "alt": "Nick Horton"
+      },
+      {
+        "title": "Alum Mohammad Haddadnia coaches Team USA International Olympiad in Artificial Intelligence (IOAI)",
+        "href": "https://hsph.harvard.edu/biostatistics/news/alum-mohammad-haddadnia-coaches-team-usa-international-olympiad-in-artificial-intelligence-ioai/",
+        "date": "June 9, 2026",
+        "image": "/images/gallery/news-alum-mohammad-haddadnia-coaches-team-usa-interna.jpg",
+        "alt": "Mohammad Haddadnia coaches the USA team in the AI Olympiad"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/gallery/lab-01.jpg",
+        "alt": "Lin Lab holiday dinner"
+      },
+      {
+        "src": "/images/gallery/lab-02.jpeg",
+        "alt": "Photo of people on stairway"
+      },
+      {
+        "src": "/images/gallery/lab-03.jpeg",
+        "alt": "Lin Lab Dinner photo"
+      },
+      {
+        "src": "/images/gallery/lab-04.jpeg",
+        "alt": "Lin Lab team dinner"
+      }
+    ]
+  },
+  "site": {
+    "name": "Lin Lab",
+    "department": "Department of Biostatistics",
+    "blurb": "The Lin Lab, led by Dr. Xihong Lin at the Harvard T.H. Chan School of Public Health, advances genomics and human disease research using innovative statistical and machine learning methods. Our team analyzes large-scale genetic, genomic, and health data to study complex diseases, focusing on areas like whole genome sequencing, functional variant annotation, polygenic risk prediction, and gene-environment interactions. We develop scalable tools, including FAVOR and STAAR, to enhance the accuracy and efficiency of genetic analysis.",
+    "email": "dpcohen@hsph.harvard.edu",
+    "location": "655 Huntington Ave, Boston, MA 02115"
+  }
+}
