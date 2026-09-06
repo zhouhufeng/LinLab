@@ -15,7 +15,7 @@
             "image": "/images/people/xihong-lin-phd.jpg",
             "alt": "Xihong Lin headshot",
             "bio": [
-              "Dr. Lin’s research spans statistical methods, machine learning, and epidemiology, including predictive modeling, causal inference, and COVID-19 studies. A member of the National Academies of Sciences and Medicine, she has received numerous awards, including the COPSS Presidents’ Award and the Marvin Zelen Leadership Award, and has served in prominent roles within national and international statistical organizations."
+              "Dr. Lin’s research focuses on developing and applying scalable, integrative statistical, machine-learning, and generative AI methods and tools to analyze massive and complex population-scale genetic, genomic, epidemiological, and health data, together with experimental functional genomics data, to generate new insights into the causes, prevention, and treatment of complex diseases. She is an elected member of both the National Academy of Sciences and the National Academy of Medicine. She has received numerous honors, including the COPSS Presidents’ Award and the Marvin Zelen Leadership Award, and has held prominent leadership positions in national and international statistical organizations."
             ],
             "links": [
               {
@@ -1247,28 +1247,31 @@
         "links": []
       },
       {
+        "id": null,
         "title": null,
-        "html": "<p>The Lin Lab, directed by Dr. Xihong Lin at the Harvard T.H. Chan School of Public Health, conducts cutting-edge research at the intersection of genomics, biostatistics, and public health. Our interdisciplinary team of research scientists, postdoctoral fellows, software developers, and doctoral students brings a wide range of expertise to this mission.</p>",
+        "kind": null,
+        "html": "<p>The Lin Lab, directed by Dr. Xihong Lin at the Harvard T.H. Chan School of Public Health, conducts cutting-edge research at the intersection of statistics, machine learning and generative AI, human genetics and genomics, and health science. Our interdisciplinary team of graduate and undergraduate students, postdoctoral fellows, research scientists, and software developers brings a wide range of expertise to this mission.</p>",
         "links": []
       },
       {
+        "id": null,
         "title": null,
-        "html": "<p>We focus on developing and applying scalable statistical and machine learning methods to analyze large-scale genetic, genomic, epidemiological, and health datasets. Core research areas include whole genome sequencing, biobanks, electronic health records, gene-environment interactions, multiple phenotype analysis, polygenic risk prediction, and heritability estimation.</p>",
+        "kind": null,
+        "html": "<p>We develop and apply scalable, integrative statistical, machine-learning, and generative AI methods to analyze large-scale genetic, genomic, epidemiological, and health data. Our goal is to translate these data into new insights into the biological and environmental determinants of complex diseases and to advance their prevention, diagnosis, and treatment.</p>",
         "links": []
       },
       {
+        "id": null,
         "title": null,
-        "html": "<p>Our team also addresses complex challenges in causal inference – such as Mendelian Randomization and mediation analysis – and advances methods for integrative analysis of whole-genome and single-cell sequencing data. In addition, we analyze epidemiological and COVID-19 data to support evidence-based public health initiatives.</p>",
+        "kind": null,
+        "html": "<p>Our major research areas include:</p><ul><li>Statistical and computational methods for the analysis of population-scale genetic and genomic data, including whole-genome sequencing studies, multi-omics data, biobanks, electronic health records, gene–environment interactions, disease-risk prediction, multi-phenotype analysis, and heritability estimation;</li><li>Variant functional annotation and statistical and computational methods for the analysis of functional genomic experimental data;</li><li>Integrative analysis of multimodal data and causal inference, including Mendelian randomization and causal mediation analysis; and</li><li>Statistically principled generative AI methods and tools, including synthetic data approaches, generative AI-enabled analysis, and agentic AI, to accelerate trustworthy scientific discovery.</li></ul>",
         "links": []
       },
       {
+        "id": null,
         "title": null,
-        "html": "<p>In the area of phenotypic analysis, we are developing nonlinear machine learning and latent variable methods to improve phenotypic refinement. We have also created scalable algorithms for polygenic risk score construction, enhancing prediction accuracy across a range of complex traits.</p>",
-        "links": []
-      },
-      {
-        "title": null,
-        "html": "<p>To support these efforts, we have developed several software tools, including FAVOR, STAAR, and STAARpipeline, as well as interactive platforms for our COVID-19 spread mapper and functional variant annotation projects. These resources enable robust and reproducible genomic and health data analysis.</p>",
+        "kind": null,
+        "html": "<p>To support these efforts, we develop scalable, open-access data resources and software tools that empower researchers to analyze population-scale genomic and health data together with experimental functional genomics data. Examples of these resources include FAVOR, STAAR, and STAARpipeline.</p>",
         "links": []
       }
     ],
@@ -1331,7 +1334,7 @@
   "site": {
     "name": "Lin Lab",
     "department": "Department of Biostatistics",
-    "blurb": "The Lin Lab, led by Dr. Xihong Lin at the Harvard T.H. Chan School of Public Health, advances genomics and human disease research using innovative statistical and machine learning methods. Our team analyzes large-scale genetic, genomic, and health data to study complex diseases, focusing on areas like whole genome sequencing, functional variant annotation, polygenic risk prediction, and gene-environment interactions. We develop scalable tools, including FAVOR and STAAR, to enhance the accuracy and efficiency of genetic analysis.",
+    "blurb": "The Lin Lab, led by Dr. Xihong Lin at the Harvard T.H. Chan School of Public Health, develops and applies integrative statistical, machine-learning, and generative AI methods to generate new insights into the causes, prevention, and treatment of complex diseases. By integrating whole-genome sequencing, multi-omics, and phenotype data from population cohorts and biobanks with functional genomic experimental data, our research spans the full spectrum from genetic variation to biological function, disease phenotypes, and actionable strategies for improving human health. Our work encompasses whole-genome sequencing analysis, variant functional annotation, functional genomics, disease-risk prediction, causal inference, gene–environment interactions, and precision health. We also develop scalable, open-access resources and tools that empower researchers to analyze population-scale genomic health data and experimental functional genomics data, and to accelerate trustworthy scientific discovery.",
     "email": "dpcohen@hsph.harvard.edu",
     "location": "655 Huntington Ave, Boston, MA 02115"
   }
