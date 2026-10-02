@@ -1,12 +1,12 @@
 # Deploying lin.genohub.org
 
-The site is static. It is built locally, rsynced to the the cloud node, and
+The site is static. It is built locally, rsynced to the origin node, and
 served by an nginx pod behind the K3s Traefik ingress — the same ingress that
 already fronts `api-v2.genohub.org` and `hcloud.genohub.org`.
 
 ```
   you            Cloudflare              origin node (ORIGIN_IP)
-  ───            ──────────              ────────────────────────────
+  ───            ──────────              ───────────────────────
   npm run build
   rsync dist/ ──────────────────────────► /srv/lin-lab/releases/<ts>/
                                           /srv/lin-lab/current ─┐
@@ -31,7 +31,7 @@ corrected, and it finishes by checking that the live page is *this* site rather
 than the wildcard's.
 
 > **An R2 token will not work.** The R2 credential in
-> `infrastructure repo/Docs/Secretes/CloudFlare-API.txt` verifies fine against
+> the infrastructure repo's Cloudflare credentials file verifies fine against
 > `/accounts/{id}/tokens/verify`, but it carries object-storage permissions
 > only, and it is IP-restricted on top of that. The giveaway that a token is an
 > R2 one: its token id is the same string as the S3 Access Key ID.
@@ -42,7 +42,7 @@ Or by hand, in the **genohub.org** zone → **DNS → Records → Add record**:
 |---|---|
 | Type | `A` |
 | Name | `lin` |
-| IPv4 | `ORIGIN_IP` |
+| IPv4 | the origin IP (`ORIGIN_IP` in `.env.origin`) |
 | Proxy status | **Proxied** (orange cloud) |
 | TTL | Auto |
 
@@ -57,7 +57,7 @@ talks to the origin over the self-signed hop.
 > lookup.**
 
 The zone's SSL/TLS mode must stay on **Full** (not Full (strict)), which is how
-it is already configured — see `infrastructure repo/Docs/CloudFlare/config.md`.
+it is already configured (see the private infrastructure repo).
 
 ### 2. Cluster objects
 
@@ -103,7 +103,7 @@ the two apart; the page title can.
 
 ```bash
 # origin, bypassing Cloudflare entirely
-ssh -i ~/.ssh/origin_key ubuntu@ORIGIN_IP \
+ssh -i "$ORIGIN_KEY" "$ORIGIN_USER@$ORIGIN_IP" \
   "curl -s -H 'Host: lin.genohub.org' http://127.0.0.1/ | grep -o '<title>[^<]*'"
 # -> <title>Lin Lab | Harvard T.H. Chan School of Public Health
 

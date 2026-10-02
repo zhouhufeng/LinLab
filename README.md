@@ -1,7 +1,7 @@
 # Lin Lab website
 
 The Lin Lab site for **[lin.genohub.org](https://lin.genohub.org)** — a static
-React build of the lab's Harvard Chan pages, served from the K3s node
+React build of the lab's Harvard Chan pages, served from our K3s node
 behind the same Cloudflare zone as `api-v2.genohub.org`.
 
 Lin Lab · Department of Biostatistics · Harvard T.H. Chan School of Public
@@ -35,7 +35,7 @@ already on `PATH` via `.zshrc`.)
 ```
 
 Builds, rsyncs a timestamped release to `/srv/lin-lab/releases/` on
-`ORIGIN_IP`, flips the `current` symlink, and verifies at the origin and
+the origin node, flips the `current` symlink, and verifies at the origin and
 through Cloudflare. `--rollback` moves the symlink back; `--list` shows what is
 on the node.
 
@@ -89,5 +89,4 @@ so you land on the content.
 
 - Upstream: <https://hsph.harvard.edu/research/lin-lab/>
 - FAVOR: <https://favor.genohub.org>
-- Infrastructure this shares a node and a Cloudflare zone with:
-  [`infrastructure repo`]((private infrastructure repo))
+- Infrastructure: shares a node and a Cloudflare zone with FAVOR (private repo)

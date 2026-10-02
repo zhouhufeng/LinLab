@@ -17,7 +17,10 @@ set -euo pipefail
 
 ZONE="${CF_ZONE:-genohub.org}"
 NAME="${CF_RECORD:-lin.genohub.org}"
-IP="${ORIGIN_IP:-ORIGIN_IP}"
+_env="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/.env.origin"
+# shellcheck disable=SC1090
+[[ -f "$_env" ]] && source "$_env"
+IP="${ORIGIN_IP:?set ORIGIN_IP in .env.origin (see .env.origin.example)}"
 API="https://api.cloudflare.com/client/v4"
 
 : "${CF_API_TOKEN:?set CF_API_TOKEN to a token with Zone:DNS:Edit on $ZONE}"
@@ -80,7 +83,7 @@ payload=$(python3 -c "
 import json, sys
 print(json.dumps({'type': 'A', 'name': sys.argv[1], 'content': sys.argv[2],
                   'proxied': True, 'ttl': 1,
-                  'comment': 'Lin Lab website on the cloud (lin.genohub.org)'}))
+                  'comment': 'Lin Lab website (lin.genohub.org)'}))
 " "$NAME" "$IP")
 
 if ! $apply; then
